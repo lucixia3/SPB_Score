@@ -1,0 +1,13 @@
+domain,score,label,criteria,examples
+Signal,3,Correct,"Correct modality contrast; realistic noise; consistent inter-tissue signal","Correct T1/T2 gray-white contrast; HU within expected ranges"
+Signal,2,Minor deviation,"Minor contrast deviation; tissue relationships near-correct","Slightly elevated noise; minor inter-sequence inconsistency"
+Signal,1,Moderate error,"Moderate signal errors; inconsistent inter-tissue relationships","Gray-white contrast reversed; FLAIR partially unsuppressed in normal CSF"
+Signal,0,Critical failure,"Wrong modality signal behavior; image does not behave as a measurement of stated quantity","Inverted FLAIR; US without depth attenuation; CT with MRI-like soft tissue contrast"
+Physics,3,Correct,"All expected artifacts present; geometry consistent with acquisition","Streak artifact at titanium clip; posterior acoustic shadow at gallstone"
+Physics,2,Minor deviation,"Minor artifact mismatch; expected artifacts present but reduced","Streak artifact present but less pronounced than expected"
+Physics,1,Moderate error,"Expected artifact absent or displaced","Streak artifact absent; acoustic shadow displaced"
+Physics,0,Critical failure,"Physically impossible under stated acquisition constraints","No beam hardening at titanium clip; no acoustic shadow at gallstone; free air in dependent spaces"
+Biology,3,Correct,"Anatomically coherent; pathology morphologically and spatially plausible","Infarct within MCA territory; free fluid in Morrison's pouch; gallstone at dependent pole"
+Biology,2,Minor deviation,"Minor anatomical inconsistency; pathology mostly plausible","Infarct mostly in MCA territory with minor extension"
+Biology,1,Moderate error,"Moderate biological error; pathology partially implausible","Infarct extending into adjacent territory without variant justification"
+Biology,0,Critical failure,"Biologically impossible; outside known physiopathology","Infarct outside any vascular territory; blood anterior to bowel in supine patient; polyp mobile at dependent pole"
