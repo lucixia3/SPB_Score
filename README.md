@@ -1,13 +1,9 @@
 # SPB-RADS: Signal–Physics–Biology Radiology Assessment and Data System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-Radiology%3A%20AI-blue)](https://doi.org/TODO)
 
 > **Evaluation of Synthetic Radiological Images: A Critical Review of Current Metrics and the SPB-RADS Framework for Clinical Plausibility Assessment**
->
-> L. [Surname], [Neuroradiologist 2], [Abdominal Radiologist], [Senior Investigator], J. Munuera
->
-> *Radiology: Artificial Intelligence* (under review)
+
 
 ---
 
@@ -41,26 +37,21 @@ spb_rads/
 ├── README.md
 ├── LICENSE
 │
-├── scoring/
-│   ├── spb_rads_rubric.md          # Full scoring rubric (human-readable)
-│   ├── spb_rads_rubric.csv         # Machine-readable rubric
-│   └── scoring_sheet_template.xlsx # Excel template for radiologist annotation
+├── spb_rads_rubric.md          # Full scoring rubric (human-readable)
+├── spb_rads_rubric.csv         # Machine-readable rubric
+└── scoring_sheet_template.xlsx # Excel template for radiologist annotation
 │
-├── prompts/
-│   ├── prompts_all.md              # All 9 standardized prompts
-│   └── prompt_template.md          # Template for new scenarios
+
+├── prompts_all.md              # All 9 standardized prompts
+└── prompt_template.md          # Template for new scenarios
 │
-├── evaluation/
-│   ├── compute_metrics.py          # FID, SSIM, IS computation
-│   ├── spb_rads_stats.py           # ICC, kappa, Spearman analysis
-│   ├── requirements.txt
-│   └── README_eval.md
+├── compute_metrics.py          # FID, SSIM, IS computation
+├── spb_rads_stats.py           # ICC, kappa, Spearman analysis
+├── requirements.txt
+└── README_eval.md
 │
-├── docs/
-│   └── spb_rads_framework.pdf      # Full framework document
-│
-└── figures/
-    └── spb_rads_diagram.png        # Framework diagram
+└── spb_rads_framework.pdf      # Full framework document
+
 ```
 
 ---
@@ -130,22 +121,7 @@ See `prompts/prompts_all.md` for full standardized prompt text for each scenario
 | Abdominal CT | CT-ORG (TCIA) | https://cancerimagingarchive.net |
 | Abdominal US | Gallbladder US dataset | https://kaggle.com |
 
----
 
-## Citation
-
-If you use SPB-RADS in your work, please cite:
-
-```bibtex
-@article{spbrads2025,
-  title   = {Evaluation of Synthetic Radiological Images: A Critical Review of
-             Current Metrics and the SPB-RADS Framework for Clinical Plausibility Assessment},
-  author  = {[Surname], L. and Munuera, J. and others},
-  journal = {Radiology: Artificial Intelligence},
-  year    = {2025},
-  doi     = {TODO}
-}
-```
 
 ---
 
@@ -153,6 +129,8 @@ If you use SPB-RADS in your work, please cite:
 
 MIT License. See [LICENSE](LICENSE).
 
-## Contact
+## Contacts
 
 Josep Munuera · jmunuera@santpau.cat · Hospital de la Santa Creu i Sant Pau, Barcelona
+Lucia Borrego · lborrego@santpau.cat · Hospital de la Santa Creu i Sant Pau, Barcelona
+
