@@ -60,8 +60,8 @@ spb_rads/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/[username]/spb-rads.git
-cd spb-rads
+git clone https://github.com/lucixia3/SPB_Score.git
+cd SPB_Score
 ```
 
 ### 2. Install dependencies
